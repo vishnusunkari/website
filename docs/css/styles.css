@@ -10101,6 +10101,12 @@ p.lead {
   background-color: darkseagreen;
 }
 
+.summary-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: .5rem;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
