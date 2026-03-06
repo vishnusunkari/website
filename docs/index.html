@@ -27,9 +27,23 @@
     <body id="page-top">
         <!-- Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"
-                ><span class="d-block d-lg-none">Vishnu Sunkari</span><span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span></a
-            ><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Vishnu Sunkari</span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" />
+                </span>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -63,58 +77,83 @@
                         </a>
                         <a class="social-icon" href="https://www.linkedin.com/pub/vishnu-sunkari/a/404/72a"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="http://techgry.com"><i class="summary-link">blog</i></a>
-                        <!--<a class="social-icon" href="http://techgry.com"><img alt="techgry.com" src="assets/img/TG.png" width=30" height="30"></a>-->
-                        <!--<a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>-->
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Leadership -->
-            <section class="resume-section" id="leadership">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Leadership</h2>
-
-                            <p><b>Cross-Functional Team Leadership: </b> Expertise in managing globally distributed teams and driving collaboration across multiple departments to achieve organizational goals.</p>
-
-
-                            <p><b>Cloud Engineering Management: </b> Extensive experience in highly available, scalable, fault-tolerant cloud architecture, governance, disaster-recovery and cost optimization</p>
-
-
-                            <p><b>Project Management & Agile: </b> Proficient in agile methodologies, with a strong background in project management, including resource allocation, roadmap creation, and milestone tracking.</p>
-
-                </div>
-            </section>
-            <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Cloud Infrastructure and Applications Management</h3>
+                            <h3 class="mb-0">Enterprise Cloud Architect</h3>
+                            <div class="subheading mb-3">Protegrity, San Francisco Bay Area, CA</div>
+                            <ul class="mb-0">
+                                <li>Architected secure and scalable solutions following AWS Well-Architected Framework, ensuring performance, reliability, security, and cost optimization.</li>
+                                <li>Apply AWS Well-Architected Framework to redesign legacy architectures for high availability, reliability, and cost efficiency across multi-region environments.</li>
+                                <li>Led architecture reviews using Well-Architected Lens, identifying high-risk issues and implementing best practices across the five pillars- Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization.</li>
+                                <li>Designed and implemented microservices-based applications using Java Spring Boot deployed on AWS EKS, integrated with Route 53 for region failover.</li>
+                                <li>Applied AWS security best practices, implementing IAM policies, RBAC roles, encryption of data at rest and in transit, and secure service-to-service communication.</li>
+                                <li>Lead the development of entire AWS Infrastructure for microservices from Network layer to Application layer including VPC, Route tables, Subnets - Private/Public, IAM Roles, Security Groups, AWS ECS Cluster, ECS Service Discovery, Docker Containerization, ECR, Kafka MKS, RDS and DynamoDB instances, ALB, Autoscaling, S3, Cloudfront, Route53 etc.</li>
+                                <li>Conduct regular security audits using AWS Config and AWS Security Hub, remediating vulnerabilities and aligning with CIS Benchmarks and SOC2 compliance.</li>
+                                <li>Integrate robust security practices into the architecture and development process ensuring products comply with industry standards for data protection and cybersecurity.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0">Sept 2025 - Present</div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Enterprise Solution Architect</h3>
+                            <div class="subheading mb-3">Dept of Human Services, State of Hawaii</div>
+                            <ul class="mb-0">
+                                <li>Developed Lambda-based utility services using AWS Lambda, with monitoring and alerting via CloudWatch to support operational visibility.</li>
+                                <li>Designed and enforced AWS Security by implementing VPC security boundaries, IAM role-based access policies, AWS KMS for at-rest encryption across S3, RDS, EBS etc.</li>
+                                <li>Designed and implemented Contact Center AI (CCAI) Insights pipelines leveraging Dialogflow CX, Pub/Sub, and BigQuery, enabling advanced call transcription and sentiment analytics for customer engagement improvement.</li>
+                                <li>Developed Dialogflow CX agents for multilingual support, with custom webhook integrations via Cloud Functions and Python Flask APIs to automate complex fulfillment workflows. Created GCP Cloud Run services to handle dynamic intent routing and external system orchestration across CCaaS integrations.</li>
+                                <li>Designed event-driven services using GCP Pub/Sub, BigQuery, Cloud Run, Vertex AI as well as Kafka.</li>
+                                <li>Applied Agentic AI patterns to enable autonomous escalation handling using contextual memory and real-time data retrieval from backend APIs.</li>
+                                <li>Integrated Generative AI playbooks using Vertex AI and Prompt Engineering techniques to generate dynamic responses and summaries from historical interaction data.</li>
+                                <li>Collaborated with cross-functional teams to embed AI-driven conversation analytics into operational dashboards, improving customer experience KPIs by 25%.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0">Feb 2025 - Sept 2025</div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cloud Solution Architect / Management</h3>
                             <div class="subheading mb-3">Swift Navigation, San Francisco Bay Area, CA</div>
-                            <p>Lead the global cloud strategy and infrastructure for Swift Navigation’s core products, ensuring highly available, fault-tolerant services across the US, Europe, China, Asia-Pacific, and Australia.</p>
+                            <ul class="mb-0">
+                                <li>Automated infrastructure deployment using Terraform and AWS CDK, python reducing provisioning time by 60%.</li>
+                                <li>Designed event-driven services leveraging AWS Lambda, Kafka, and DynamoDB to ensure system decoupling and scalability.</li>
+                                <li>Created CloudWatch dashboards and alarms for Lambda, and Kafka services, enabling proactive incident detection and reducing MTTR.</li>
+                                <li>Optimization of Cloud Cost with Cloud FinOps - savings plans, discount programs, right balance of high-availability and performance of services, building tools for cost visibility and taking action based on ROI. Reduced ~30% of Cloud Annual Costs for Swift.</li>
+                                <li>Designed and implemented serverless microservices using AWS Lambda with Java Spring Boot, reducing infrastructure management overhead.</li>
+                                <li>Optimized cold start performance for Lambda functions by leveraging Provisioned Concurrency, reducing invocation latency by 40%.</li>
+                                <li>Implemented automated security compliance checks using AWS Config and Security Hub.</li>
+                                <li>Enhanced cloud security by integrating AWS IAM, KMS, and AWS PrivateCA for end-to-end encryption.</li>
+                                <li>Optimized Kubernetes workloads on AWS EKS, enhancing application performance and resource utilization.</li>
+                            </ul>
+                            <!--p>Lead the global cloud strategy and infrastructure for Swift Navigation’s core products, ensuring highly available, fault-tolerant services across the US, Europe, China, Asia-Pacific, and Australia.</p>
                             <p>Directed the implementation of cloud governance policies, achieving compliance with ISO27001 and ISO26262 standards, and ensuring data security for GNSS data.</p>
                             <p>Spearheaded cloud cost optimization initiatives, resulting in a ~30% reduction in costs through strategic resource allocation and usage optimization.</p>
                             <p>Increased service uptime by 15%, directly enhancing customer satisfaction and retention, contributing to a 10% growth in annual revenue.</p>
                             <p>Built, managed and responsible for 3 engineering teams of total size 20 engineers from Principal to Junior level Engineers across the globe responsible for
-                                designing and implementing CI/CD pipelines, cloud platforms, and infrastructure components.</p>
+                                designing and implementing CI/CD pipelines, cloud platforms, and infrastructure components.</p-->
                         </div>
-                        <div class="flex-shrink-0">Sept 2022 - Present</div>
+                        <div class="flex-shrink-0">Sept 2022 - Nov 2024</div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Cloud Engineering Management</h3>
+                            <h3 class="mb-0">Cloud Engineering Architecture / Management</h3>
                             <div class="subheading mb-3">Nations Info Corp, Westlake Village, CA</div>
-                            <p>Re-engineered Nations Info Corp's billing platform using Kafka Cluster with multiple topics and concurrency, which resulted in a 20% increase in revenue by optimizing transaction processing and improving billing accuracy.</p>
-                            <p>Architected and deployed a micro-service based AWS infrastructure, covering the entire stack from VPC and subnets to ECS clusters and RDS databases.</p>
-                            <p>Coached and mentored engineers across multiple teams through regular one-on-one sessions, providing guidance at professional as well as personal level.
-                                Led the quarterly and yearly performance reviews, setting growth goals and creating personalized development plans to foster talent and ensure alignment
-                                with company objectives.</p>
-                            <p>Drove the migration from a monolithic architecture to a micro-service approach, improving scalability and performance.</p>
-                            <p>Enabled a 25% faster release cycle, significantly boosting productivity and reducing time-to-market for new features.</p>
-                            <p>Established engineering roadmaps and resource allocation strategies to ensure timely project delivery.</p>
-                            <p>Designed and implemented a comprehensive CI/CD pipeline using Bitbucket Pipelines and AWS Code services, enhancing deployment efficiency and consistency.</p>
+                            <ul class="mb-0">
+                                <li>Re-engineered billing transaction processing platforms using Kafka clusters, improving revenue efficiency by 20% through concurrency and real-time processing.</li>
+                                <li>Developed real-time data ingestion and processing pipelines using Kafka, Pub/Sub, and Dataflow, integrating IoT data into BigQuery for analytics.</li>
+                                <li>Integrated structured application logs with CloudWatch Logs Insights, enabling real-time querying and root cause analysis of production issues.</li>
+                                <li>Migrated monolithic workloads to AWS Lambda, breaking down legacy applications into smaller, cost-efficient, and scalable serverless functions.</li>
+                                <li>Developed modular, reusable Terraform configurations including state management with S3 and DynamoDB to standardize infrastructure provisioning across multiple Cloud accounts, improving deployment consistency and efficiency. Integrated Python automation scripts to streamline AWS infrastructure operations.</li>
+                                <li>Design and implement end-to-end CI/CD pipeline using bitbucket pipelines as well as AWS Code commit, Code build, Code deploy cutting deployment times by 50%.</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0">Dec 2020 - Sept 2022</div>
                     </div>
@@ -122,20 +161,29 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Engineering Lead, Cloud</h3>
                             <div class="subheading mb-3">USA Today Inc, Woodland Hills, CA</div>
-                            <p>Led the design and implementation of scalable micro-services on AWS ECS, enhancing the resilience and scalability of key systems.</p>
-                            <p>Managed multiple engineering teams, ensuring seamless integration and performance of advertising platforms on Facebook, Google, and Simplifi.</p>
-                            <p>Developed and maintained fault-tolerant systems with built-in disaster recovery capabilities, ensuring business continuity.</p>
-                            <p>Optimized cloud resource usage, leading to a 20% reduction in operating costs while maintaining system performance.</p>
+                            <ul class="mb-0">
+                                <li>Developed serverless microservices using AWS Lambda and Spring Boot integrated with API Gateway, DynamoDB, SQS to deliver low-latency, event-driven workflows.</li>
+                                <li>Built and maintained customer account management systems for 1M+ users, improving customer retention by 15%.</li>
+                                <li>Improved development velocity by encapsulating multi-stack infrastructure into version-controlled CDK modules, enabling deployments across environments.</li>
+                                <li>Designed and executed migration strategy for Spring Boot microservices from AWS ECS to GCP Kubernetes Engine (GKE), ensuring zero downtime.</li>
+                                <li>Led the design and implementation of event-driven architectures using AWS Lambda, SNS, and SQS, enabling asynchronous communication between microservices and improving system scalability and decoupling.</li>
+                                <li>Implemented Terraform-based infrastructure as code (IaC) for GCP, transitioning from AWS CloudFormation to ensure a repeatable and scalable cloud setup.</li>
+                                <li>Integrated AWS Lambda with API Gateway to expose RESTful endpoints for scalable, event-driven applications.</li>
+                                <li>Designed and implemented CI/CD pipelines with Jenkins for fast and secure software delivery.</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0">May 2018 - Dec 2020</div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Systems Architect</h3>
+                            <h3 class="mb-0">Lead Engineer</h3>
                             <div class="subheading mb-3">Trimble Inc, Playa Vista, CA</div>
-                            <p>Provided technical leadership in the design and development of an e-commerce platform, ensuring robust, secure, and scalable cloud architecture across global regions.</p>
-                            <p>Mentored cross-functional teams, fostering skill development and ensuring high-quality code delivery.</p>
-                            <p>Led the development of region-based database architectures, facilitating efficient data access and aggregation through Elasticsearch.</p>
+                            <ul class="mb-0">
+                                <li>Designed and implemented e-commerce infrastructure with scalable RESTful e-commerce services, supporting millions of users and enabling $10M in annual subscription revenue.</li>
+                                <li>Optimized cloud-based inventory and order management systems, ensuring high availability and real-time updates for retail operations.</li>
+                                <li>Led the development of AWS region-based DB architectures across US, EU and China and leveraged Elastic Search to reduce latency by 25%.</li>
+                                <li>End to End Performance Optimization from Edge servers to front-end to back-end including query optimization, caching and server optimization.</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0">May 2016 - May 2018</div>
                     </div>
@@ -143,17 +191,23 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Lead Software Engineer</h3>
                             <div class="subheading mb-3">Thryv/DexMedia Inc, Santa Monica, CA</div>
-                            <p>Designed and implemented enterprise APIs and systems for the fulfillment of advertising products, leveraging the Spring Framework and REST-based services.</p>
-                            <p>Developed and maintained a custom-built account management system, enabling efficient management of marketing needs for advertisers.</p>
+                            <ul class="mb-0">
+                                <li>Designed and implemented enterprise APIs and systems for the fulfillment of advertising products, leveraging the Spring Framework and REST-based services.</li>
+                                <li>Developed and maintained a custom-built account management system, enabling efficient management of marketing needs for advertisers.</li>
+                                <li>Designed scalable RESTful APIs serving over a million customers, improving application throughput. Integrated Elasticsearch for full-text search capabilities, reducing query times by 60%.</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0">October 2011 - May 2016</div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Programmer</h3>
+                            <h3 class="mb-0">Sr Software Programmer</h3>
                             <div class="subheading mb-3">Franklin University, Columbus, OH</div>
-                            <p>Designed and Developed Enterprise Web Application for Franklin University using Spring Stack (Spring MVC, Spring Security, Spring LDAP), Hibernate, MySQL5 and LDAP integration.</p>
-                            <p>Lead Developer responsible for the maintenance and development of Franklin University’s Enterprise Web Systems including Vignette V7.</p>
+                            <ul class="mb-0">
+                                <li>Designed and Developed Enterprise Web Systems using Spring MVC, Spring Security, Spring LDAP, Hibernate, MSSQLServer and LDAP integration.</li>
+                                <li>Spearheaded microservices adoption, replacing monolithic legacy systems with event-driven architectures.</li>
+                                <li>Managed CI/CD pipelines with Jenkins, enabling continuous integration and automated testing.</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0">September 2008 - September 2011</div>
                     </div>
@@ -161,7 +215,10 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Programmer Analyst II</h3>
                             <div class="subheading mb-3">Texas State University, San Marcos, TX</div>
-                            <p>Prime developer of the Texas State University’s Enterprise web system in Magnolia and Vignette CMS.</p>
+                            <ul class="mb-0">
+                                <li>Prime developer of the Texas State University's Enterprise web system in Magnolia and Vignette CMS.</li>
+                                <li>Designed and implemented Content Management Systems including scalable RESTful APIs</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0">December 2005 - August 2008</div>
                     </div>
@@ -216,7 +273,7 @@
                             <span class="fa-li"><i class="fas fa-check"></i></span>Agile Development & Scrum
                         </li>
                     </ul>
-                    <br>
+                    <br />
                     <div class="subheading mb-3">Technologies</div>
                     <ul class="fa-ul mb-0">
                         <!--<li class="list-inline-item"><i class="fab fa-java"></i>Java</li>-->
